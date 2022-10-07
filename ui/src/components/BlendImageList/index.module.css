@@ -1,0 +1,14 @@
+.Container {
+    position: relative;
+    display: flex;
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    height: 100%;
+    z-index: 1;
+    transition-property: transform;
+    box-sizing: content-box;
+    gap: 15px;
+    margin-inline: auto;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}

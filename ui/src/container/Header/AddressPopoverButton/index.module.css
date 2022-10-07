@@ -1,0 +1,144 @@
+.PopoverContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    --popper-bg: #2D3748;
+    background: #2A2C2F;
+    --popper-arrow-bg: #2D3748;
+    --popper-arrow-shadow-color: rgba(255, 255, 255, 0.16);
+    width: 240px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: #FF3F38;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    z-index: inherit;
+}
+
+.PopoverHeader {
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    border-bottom-width: 1px;
+    padding: 1.25rem;
+    line-height: 1em;
+    border-color: #565964;
+}
+
+.PopoverHeaderButton {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.PopoverHeaderButton:hover {
+    color: #FF3F38;
+}
+
+.PopoverHeaderButtonIcon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    color: currentcolor;
+}
+
+.PopoverHeaderButtonText {
+    margin-top: 0px;
+    margin-inline: 0.5rem 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.PopoverBody {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    padding: 1.25rem;
+    border-bottom-width: 1px;
+    border-color: #565964;
+}
+
+.PopoverBodyWalletHeader {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.PopoverBodyWalletHeaderIcon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    color: currentcolor;
+}
+
+.PopoverBodyWalletHeaderText {
+    margin-top: 0px;
+    margin-inline: 0.5rem 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.PopoverBodyAddress {
+    margin-top: 20px;
+    border: 1px solid #565964;
+    cursor: pointer;
+    text-align: center;
+}
+
+.PopoverFooter {
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 0.75rem;
+    padding: 1.25rem;
+    line-height: 1em;
+}
+
+.PopoverFooterDisconnectButton {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: row;    
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    line-height: 40px;
+}
+
+.PopoverFooterDisconnectButton:hover {
+    background: rgba(229, 238, 245, 0.09);
+    color: #fff;
+}
+
+.PopoverFooterDisconnectButtonIcon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1em;
+    flex-shrink: 0;
+    color: currentcolor;
+}
+
+.PopoverFooterDisconnectButtonText {
+    margin-top: 0px;
+    margin-inline: 0.5rem 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.AddressLabel {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}

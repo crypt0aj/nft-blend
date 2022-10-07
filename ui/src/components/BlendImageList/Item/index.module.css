@@ -1,0 +1,87 @@
+.Container {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.Button {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 200px;
+}
+
+.PerfectBlendContainer {
+  border-color: #168ad9;
+  background-color: #168ad9;
+}
+
+.Banner {
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+  background-color: #151c21;
+}
+
+.PerfectBlendBanner {
+  background-color: #168ad9;
+}
+
+.BlendInfo {
+  padding: 5px;
+  background-color: #17232b;
+}
+
+.BlendInfo:hover {
+  background-color: #1f2f39;
+}
+
+.Image {
+  width: 100%;
+  min-width: 200px;
+}
+
+.Description {
+  display: flex;
+}
+
+.Description > div {
+  flex-grow: 1;
+}
+
+.Address {
+  font-size: 0.8rem;
+  line-height: 20px;
+  font-weight: 600;
+  color: #168ad9;
+}
+
+.AddressLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.MatchScoreContainer {
+  width: 40px;
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+}
+
+.MatchScoreTextContainer {
+  margin-top: -40%;
+  margin-inline-end: -2px;
+}
+
+.MatchScoreText {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.MatchScorePercentageText {
+  font-size: 0.6rem;
+  vertical-align: text-top;
+}

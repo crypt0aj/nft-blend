@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  src: local("Futura PT"),
+    url("./fonts//FuturaCyrillicMedium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicDemi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicHeavy.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Futura PT"),
+    url("./fonts/FuturaCyrillicExtraBold.ttf") format("woff");
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Futura PT", "PT Sans", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #ffffff;
+  background: #1a202c;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  line-height: 1.5;
+  background-color: #151c21;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: inherit;
+  font: inherit;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}

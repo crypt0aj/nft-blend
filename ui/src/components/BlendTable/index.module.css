@@ -1,0 +1,50 @@
+.Container {
+  position: relative;
+  display: flex;
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  height: 100%;
+  z-index: 1;
+  transition-property: transform;
+  box-sizing: content-box;
+  gap: 15px;
+  margin-inline: auto;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+.Table {
+  font-variant-numeric: lining-nums tabular-nums;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: 600;
+  height: 1px;
+}
+
+.TableHeader {
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  text-align: left;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  line-height: 1rem;
+  font-size: 16px;
+  box-shadow: rgb(255 255 255) 0px -1px 0px 0px inset;
+  cursor: default;
+  position: sticky;
+  top: 72px;
+  z-index: 10;
+  background: #151c21;
+  height: 86px;
+}
+
+.TableHeaderBlend {
+  text-align: center;
+}
+
+.TableHeaderScore {
+  text-align: center;
+}

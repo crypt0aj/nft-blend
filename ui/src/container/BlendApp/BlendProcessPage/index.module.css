@@ -1,0 +1,137 @@
+.Container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: calc(100% - 144px);
+  min-height: 500px;
+}
+
+.ResultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ResultTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.Result {
+  max-width: 1000px;
+  margin-top: 30px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.ResultNFTContainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.NFT {
+  flex-basis: 250px;
+  background: #141923;
+  display: flex;
+  aspect-ratio: 1/1;
+  flex-wrap: wrap;
+  transition: all 1s ease;
+}
+
+.NFTBlend {
+  flex-basis: 550px;
+  position: relative;
+  z-index: 1;
+}
+
+.NFT > img {
+  aspect-ratio: 1/1;
+  transition: all 1s ease;
+  transform: translate3d(0, 0, 0);
+  display: block;
+}
+
+.NFTImageFaded {
+  opacity: 0.33;
+}
+
+.NFTBlend img {
+  opacity: 0;
+}
+
+.NFTImageReveal {
+  opacity: 1 !important;
+}
+
+.NFTLeftDone {
+  transform: translate3d(100%, 0, 0);
+}
+.NFTRightDone {
+  transform: translate3d(-100%, 0, 0);
+}
+
+.Caption {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.ProgressContainer {
+  margin-top: 30px;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: all 1s ease;
+}
+
+.ProgressTitle {
+  width: 100%;
+}
+
+.Progress {
+  overflow: hidden;
+  margin-top: 0.2em;
+  height: 15px;
+  appearance: none;
+  aspect-ratio: 36/1;
+  background-image: linear-gradient(#1a202c 1px, transparent 1px),
+    linear-gradient(to right, #1a202c 1px, rgb(255, 63, 56) 1px);
+  background-size: calc(100% / 36) 20px;
+  position: relative;
+}
+
+.ProgressInner {
+  height: 15px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background: #141923;
+}
+
+.ProgressPct {
+  position: relative;
+  top: 1.5px;
+  margin-left: 3px;
+  width: 35px;
+  margin-right: -80px;
+  font-variant-numeric: tabular-nums;
+}

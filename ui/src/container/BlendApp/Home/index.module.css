@@ -1,0 +1,77 @@
+.Container {
+}
+
+.Banner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #18232b;
+  display: flex;
+  -webkit-box-align: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.BannerContent {
+  width: 100%;
+  text-align: center;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+}
+
+.Title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Description {
+  line-height: 40px;
+  font-size: 1rem;
+  color: #9da4ab;
+}
+
+.BlendButton {
+  display: inline-flex;
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  line-height: 1.2;
+  border-radius: 2px;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: auto;
+  min-width: 2.5rem;
+  font-size: 1rem;
+  margin-top: 30px;
+  padding-inline: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: rgb(255, 63, 56);
+  color: #fff;
+}
+
+.BlendButton:hover {
+  background: rgb(245, 101, 101);
+}
+
+.Section {
+  margin-top: 50px;
+}
+
+.SectionTitle {
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  margin-inline: auto;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}

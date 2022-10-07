@@ -1,0 +1,98 @@
+.Container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: calc(100% - 144px);
+  min-height: 500px;
+}
+
+.Content {
+  text-align: center;
+}
+
+.Title {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.Description {
+  margin-top: 30px;
+  line-height: 40px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.AddressForm {
+  display: flex;
+  flex-direction: row;
+  height: 3.5rem;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.AddressInputContainer {
+  flex-grow: 1;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.AddressInput {
+  outline-width: 0;
+  line-height: 1.75rem;
+  height: 100%;
+  width: 100%;
+  min-width: 500px;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.BlendButton {
+  display: inline-flex;
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  line-height: 1.2;
+  border-radius: 2px;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  height: 100%;
+  min-width: 2.5rem;
+  font-size: 1rem;
+  padding-inline: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: rgb(255, 63, 56);
+  color: #fff;
+}
+
+.BlendButton:hover {
+  background: rgb(245, 101, 101);
+}
+
+.BlendButton:disabled,
+.BlendButton[disabled] {
+  background: rgb(255, 63, 56);
+  opacity: 0.3;
+}

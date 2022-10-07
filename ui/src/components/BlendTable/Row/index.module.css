@@ -1,0 +1,46 @@
+.Row {
+  border-bottom: 1px solid rgb(86, 89, 100);
+}
+
+.Row:hover {
+  background-color: rgba(230, 239, 246, 0.18);
+}
+
+.Cell {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  line-height: 1.25rem;
+}
+
+.CellBlend {
+  text-align: center;
+}
+
+.CellImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+.Image {
+  width: 40px;
+  height: 40px;
+}
+
+.Wallets {
+  display: flex;
+  flex-direction: row;
+}
+
+.WalletsSlashText {
+  padding-inline-start: 5px;
+  padding-inline-end: 5px;
+}
+
+.CellScore {
+  text-align: center;
+}
